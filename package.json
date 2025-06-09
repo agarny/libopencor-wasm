@@ -7,7 +7,7 @@
     "release:minor": "npm version minor; npm publish",
     "release:patch": "npm version patch;  npm publish"
   },
-  "description": "libopencor is a javascript WebAssembly module of [OpenCOR](https://opencor.ws/).",
+  "description": "libOpenCOR is a JavaScript WebAssembly module of [libOpenCOR](https://opencor.ws/libopencor/).",
   "type": "module",
   "main": "./src/libopencor.js",
   "module": "./src/libopencor.js",
