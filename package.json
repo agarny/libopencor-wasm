@@ -1,6 +1,6 @@
 {
   "name": "@abi-software/libopencor-wasm",
-  "version": "0.0.1-beta.0",
+  "version": "0.0.1-beta.1",
   "private": false,
   "scripts": {
     "release:beta": "npm version prerelease --preid=beta; npm publish --tag beta",
