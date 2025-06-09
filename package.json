@@ -1,0 +1,39 @@
+{
+  "name": "@abi-software/libopencor-wasm",
+  "version": "0.0.1-beta.0",
+  "private": false,
+  "scripts": {
+    "release:beta": "npm version prerelease --preid=beta; npm publish --tag beta",
+    "release:minor": "npm version minor; npm publish",
+    "release:patch": "npm version patch;  npm publish"
+  },
+  "description": "libopencor is a javascript WebAssembly module of [OpenCOR](https://opencor.ws/).",
+  "type": "module",
+  "main": "./src/libopencor.js",
+  "module": "./src/libopencor.js",
+  "exports": {
+    ".": {
+      "import": "./src/libopencor.js"
+    },
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "data/*",
+    "dist/*",
+    "public/*",
+    "scripts/*",
+    "src/*",
+    "*.json",
+    "*.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ABI-Software/libopencor-wasm.git"
+  },
+  "author": "Alan Garny",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ABI-Software/libopencor-wasm/issues"
+  },
+  "homepage": "https://github.com/ABI-Software/libopencor-wasm#readme"
+}

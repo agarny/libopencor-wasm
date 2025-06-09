@@ -1,2 +1,2 @@
-# opencor-wasm.js
-WASM module of OpenCOR
+# libopencor-wasm.js
+WebAssembly module of OpenCOR.
